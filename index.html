@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Atividade 012 - Lourenço Sequeira</title>
+  <link href="styles.css" rel="stylesheet"/>
+
+</head>
+
+<body>
+  <h1>Tabela de idades</h1>
+
+  <!--Tabela de idades-->
+  <table>
+    <form>
+    <tr>
+        <th class="tabelai">Tabela de idades:</th>
+        <th style="font-weight: bolder;">
+            <label for="valor">Idade (anos):</label>
+            <input type="number" id="valor" name="valor">
+            <button type="button" onclick="imagens()">Validar</button>
+        </th>
+    </tr>
+    <tr>
+        <th>>=0 e <= 2 anos -> bebé</th>
+        <th rowspan="9"><img id="imagem" src="Imagens\1x1-0000ff7f.png"></th>
+        
+    </tr>
+    <tr>
+        <th>> 2  e < 12 anos -> criança</th>
+    </tr>
+    <tr>
+        <th>>= 12 e <= 16 anos -> adolescente</th>
+    </tr>
+    <tr>
+        <th>> 16 e < 18 anos -> jovem adulto</th>
+    </tr>
+    <tr>
+        <th>>= 18 e < 50 anos -> adulto</th>
+    </tr>
+    <tr>
+        <th>>= 50 e <= 65 anos -> adulto de meia idade</th>
+    </tr>
+    <tr>
+        <th>> 65 anos -> idoso</th>
+    </tr>
+    <tr>
+        <th>> 100 anos -> lendário</th>
+    </tr>
+    <tr>
+        <th>> 130 anos -> imortal</th>
+    </tr>
+    </form>
+  </table>
+  
+  <script src="script.js"></script>
+</body>
+
+</html>

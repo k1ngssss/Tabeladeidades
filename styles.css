@@ -1,0 +1,56 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 2%;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    font-size: 35px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    background-color: white;
+  
+}
+
+th {
+    border-collapse: collapse;
+    border: 2px solid black;
+    padding: 8  px;
+    font-weight: lighter;
+    width: 20%;
+  
+}
+
+label,
+input {
+  font-size: 35px;
+  text-align: center;
+}
+
+.tabelai {
+    font-weight: bolder;
+}
+
+button {
+    font-size: 25px;
+    font-weight: bolder;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    margin-left: 3%;
+  
+}
+
+img {
+  max-width: 580px;
+  margin-top: 10px;
+}
